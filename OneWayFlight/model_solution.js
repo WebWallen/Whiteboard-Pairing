@@ -7,6 +7,7 @@ function reconstructTrip(tickets) {
   // and destinations
   const hash = {};
   const route = Array(tickets.length - 1);
+  console.log(route);
 
   tickets.forEach(ticket => {
     // check for the start destination of our trip
